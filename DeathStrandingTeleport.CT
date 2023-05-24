@@ -20,14 +20,12 @@
               <Description>"X"</Description>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -35,14 +33,12 @@
               <Description>"Y"</Description>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
-                <Offset>84</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>504</Offset>
+                <Offset>2B8</Offset>
+                <Offset>80</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -50,14 +46,12 @@
               <Description>"Z"</Description>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
-                <Offset>88</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>508</Offset>
+                <Offset>2B8</Offset>
+                <Offset>80</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -68,14 +62,12 @@
               <Color>80FF80</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -155,14 +147,12 @@
           <Color>8080FF</Color>
           <VariableType>Array of byte</VariableType>
           <ByteLength>12</ByteLength>
-          <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+          <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
           <Offsets>
+            <Offset>500</Offset>
+            <Offset>2B8</Offset>
             <Offset>80</Offset>
-            <Offset>100</Offset>
-            <Offset>60</Offset>
-            <Offset>C0</Offset>
-            <Offset>78</Offset>
-            <Offset>B0</Offset>
+            <Offset>58</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
@@ -181,14 +171,12 @@
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -201,14 +189,12 @@
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -221,14 +207,12 @@
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -253,14 +237,12 @@ EDE3F7C42DF3EFC3327A0B43:Port Knot City
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -274,34 +256,30 @@ EDE3F7C42DF3EFC3327A0B43:Port Knot City
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>90</ID>
               <Description>"Other"</Description>
-              <DropDownList ReadOnly="1" DescriptionOnly="1">2BB604444605A34304176D43:Incinerator West of Capital Knot City
+              <DropDownList ReadOnly="1" DescriptionOnly="1">3B040544469CA0436DF16D43:Incinerator West of Capital Knot City
 </DropDownList>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
               <Offsets>
+                <Offset>500</Offset>
+                <Offset>2B8</Offset>
                 <Offset>80</Offset>
-                <Offset>100</Offset>
-                <Offset>60</Offset>
-                <Offset>C0</Offset>
-                <Offset>78</Offset>
-                <Offset>B0</Offset>
+                <Offset>58</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
