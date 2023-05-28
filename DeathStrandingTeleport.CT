@@ -18,40 +18,52 @@
             <CheatEntry>
               <ID>56</ID>
               <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>75</ID>
               <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>504</Offset>
-                <Offset>2B8</Offset>
-                <Offset>80</Offset>
+                <Offset>84</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>76</ID>
               <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
               <Color>80FF80</Color>
               <VariableType>Float</VariableType>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>508</Offset>
-                <Offset>2B8</Offset>
-                <Offset>80</Offset>
+                <Offset>88</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -62,12 +74,15 @@
               <Color>80FF80</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -147,12 +162,15 @@
           <Color>8080FF</Color>
           <VariableType>Array of byte</VariableType>
           <ByteLength>12</ByteLength>
-          <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+          <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
           <Offsets>
-            <Offset>500</Offset>
-            <Offset>2B8</Offset>
             <Offset>80</Offset>
+            <Offset>100</Offset>
+            <Offset>40</Offset>
+            <Offset>30</Offset>
             <Offset>58</Offset>
+            <Offset>90</Offset>
+            <Offset>B0</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
@@ -164,55 +182,94 @@
             <CheatEntry>
               <ID>85</ID>
               <Description>"UCA Facilities"</Description>
-              <DropDownList ReadOnly="1" DescriptionOnly="1">3F7521452264FB443E7A5143:Lake Knot City
+              <DropDownList ReadOnly="1" DescriptionOnly="1">4C44DAC4067FFE4480046343:Distribution Center North of Mountain Knot City
+A47D8344FFEACE43327A1043:Distribution Center South of Lake Knot City
+2ED397C49C195FC32D350544:Heartman's Lab
+3F7521452264FB443E7A5143:Lake Knot City
+7FE57E44BDB975C42E082343:Mama's Lab
+7AC089C48238894311ABB043:Mountain Knot City
+C0E4AC44EE49A0C45A470B43:South Knot City
+D1D5BD42F615CAC49E74DB42:Timefall Farm
+A9773543FA5ACD4475B68243:Waystation North of Mountain Knot City
+0BAC214220B994C20AAF9B43:Weather Station
 </DropDownList>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>86</ID>
               <Description>"Prepper Shelters"</Description>
-              <DropDownList ReadOnly="1" DescriptionOnly="1">11E608459FC19444D1863243:Engineer
+              <DropDownList ReadOnly="1" DescriptionOnly="1">09690645C89D63C47C6F1C43:Chiral Artist's Studio
+75D38E441546E4416C460743:Collector
+ED253444D01F26C4037DCB42:Cosplayer
+A64A9944BD73A4449FC23843:Craftsman
+0A8BB2C49F446C42AF4BB443:Doctor
+11E608459FC19444D1863243:Engineer
+C040D4441A622F44913E7543:Elder
+ACF6E4C490C730C48C7EE943:Evo-devo Biologist
+FD0EFA449B2EBBC1325B1943:Film Director
+F6505BC3E1133544C7224544:First Prepper
+ED5760C4E00545C4E1631C44:Geologist
+4345CA44D6D489C354610843:Junk Dealer
+90B766C41EEE8444CAF61544:Mountaineer
+AC9318C5536AA144B1107B43:Novelist's Son
+A4229BC42D049CC43B1BCE43:Paleontologist
+4F9CDA44A86BF644797B5343:Peter Englert
+D07A07C555F816445E128543:Photographer
+5DB521C44FE00FC392230644:Roboticist
+7620A0C3F7067744BA4A3844:Spiritualist
+B14FD1C365A191C4DAF27A43:Veteran Porter
 </DropDownList>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>87</ID>
               <Description>"Other"</Description>
-              <DropDownList ReadOnly="1" DescriptionOnly="1">EAD4A5445B6FDF44E8504743:Ruined Shelter
+              <DropDownList ReadOnly="1" DescriptionOnly="1">669CA9C35C390B45EAFF5A43:Incinerator West of Lake Knot City
+EAD4A5445B6FDF44E8504743:Ruined Shelter
+ACE51FC53F56FBC420BABB42:UCA-41-011: Chiral Relay
 </DropDownList>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -227,22 +284,25 @@
               <ID>88</ID>
               <Description>"UCA Facilities"</Description>
               <DropDownList ReadOnly="1" DescriptionOnly="1">5940B344F1F52F44654D0943:Capital Knot City
-36439B4335F7904434F82243:Waystation West of Capital Knot City
 CDECDAC3AC5C8443B75F0943:Distribution Center West of Capital Knot City
-6A66BAC4EA2E254481A54D43:Wind Farm
 EDE3F7C42DF3EFC3327A0B43:Port Knot City
+36439B4335F7904434F82243:Waystation West of Capital Knot City
+6A66BAC4EA2E254481A54D43:Wind Farm
 </DropDownList>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -256,12 +316,15 @@ EDE3F7C42DF3EFC3327A0B43:Port Knot City
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
@@ -274,12 +337,15 @@ EDE3F7C42DF3EFC3327A0B43:Port Knot City
               <Color>8080FF</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>12</ByteLength>
-              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759B5C8</Address>
+              <Address>"NIP.Win64.Submission.DX12.Opt.GDK.exe"+0759E1C8</Address>
               <Offsets>
-                <Offset>500</Offset>
-                <Offset>2B8</Offset>
                 <Offset>80</Offset>
+                <Offset>100</Offset>
+                <Offset>40</Offset>
+                <Offset>30</Offset>
                 <Offset>58</Offset>
+                <Offset>90</Offset>
+                <Offset>B0</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
