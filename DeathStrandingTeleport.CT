@@ -149,6 +149,131 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>96</ID>
+      <Description>"Helpers"</Description>
+      <Color>80FFFF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"Save Location"</Description>
+          <Options moHideChildren="1"/>
+          <Color>80FFFF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : Death Stranding
+  Version: 
+  Date   : 2023-05-29
+  Author : smolse
+
+  This script saves the current Sam's location
+}
+
+[ENABLE]
+
+aobscanmodule(INJECT,NIP.Win64.Submission.DX12.Opt.GDK.exe,C5 F8 11 87 80 00 00 00 C4 41) // should be unique
+alloc(newmem,$1000,INJECT)
+
+label(code)
+label(return)
+
+alloc(_savedlocation,$16)
+registersymbol(_savedlocation)
+
+newmem:
+  movaps xmm1,[_savedlocation]
+  vptest xmm1,xmm1
+  jnz code
+  vmovups [_savedlocation],xmm0
+
+code:
+  vmovups [rdi+80],xmm0
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db C5 F8 11 87 80 00 00 00
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+
+unregistersymbol(_savedlocation)
+dealloc(_savedlocation)
+
+{
+// ORIGINAL CODE - INJECTION POINT: NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECBC
+
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC88: C5 FA 11 95 A0 00 00 00  - vmovss [rbp+000000A0],xmm2
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC90: 89 85 9C 00 00 00        - mov [rbp+0000009C],eax
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC96: E8 C5 21 00 00           - call NIP.Win64.Submission.DX12.Opt.GDK.exe+1F90E60
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC9B: 83 F8 FF                 - cmp eax,-01
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC9E: 0F 84 9D 00 00 00        - je NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ED41
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECA4: 48 FF C6                 - inc rsi
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECA7: 48 83 C3 70              - add rbx,70
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECAB: 49 3B F7                 - cmp rsi,r15
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECAE: 0F 8C 4C FF FF FF        - jl NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8EC00
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECB4: C5 C0 58 87 80 00 00 00  - vaddps xmm0,xmm7,[rdi+00000080]
+// ---------- INJECTING HERE ----------
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECBC: C5 F8 11 87 80 00 00 00  - vmovups [rdi+00000080],xmm0
+// ---------- DONE INJECTING  ----------
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECC4: C4 41 2A 5C D3           - vsubss xmm10,xmm10,xmm11
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECC9: 8B 45 38                 - mov eax,[rbp+38]
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECCC: 41 BF 00 00 00 00        - mov r15d,00000000
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECD2: 48 8B 75 40              - mov rsi,[rbp+40]
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECD6: 48 3B 75 30              - cmp rsi,[rbp+30]
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECDA: 8B 5D 48                 - mov ebx,[rbp+48]
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECDD: 41 0F 44 C7              - cmove eax,r15d
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECE1: C4 C1 78 11 7D 00        - vmovups [r13+00],xmm7
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECE7: 8B 0D AB 69 5A 05        - mov ecx,[NIP.Win64.Submission.DX12.Opt.GDK.exe+7535698]
+NIP.Win64.Submission.DX12.Opt.GDK.exe+1F8ECED: 89 45 38                 - mov [rbp+38],eax
+}
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>94</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>80FFFF</Color>
+              <VariableType>Float</VariableType>
+              <Address>_savedlocation+0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>80FFFF</Color>
+              <VariableType>Float</VariableType>
+              <Address>_savedlocation+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>98</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>80FFFF</Color>
+              <VariableType>Float</VariableType>
+              <Address>_savedlocation+8</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>99</ID>
+              <Description>"XYZ"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>80FFFF</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>12</ByteLength>
+              <Address>_savedlocation+0</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>65</ID>
       <Description>"Teleport"</Description>
       <Color>8080FF</Color>
@@ -217,8 +342,8 @@ A9773543FA5ACD4475B68243:Waystation North of Mountain Knot City
 ED253444D01F26C4037DCB42:Cosplayer
 A64A9944BD73A4449FC23843:Craftsman
 0A8BB2C49F446C42AF4BB443:Doctor
-11E608459FC19444D1863243:Engineer
 C040D4441A622F44913E7543:Elder
+11E608459FC19444D1863243:Engineer
 ACF6E4C490C730C48C7EE943:Evo-devo Biologist
 FD0EFA449B2EBBC1325B1943:Film Director
 F6505BC3E1133544C7224544:First Prepper
